@@ -1,0 +1,6 @@
+{
+  "name": "مجلس العفريت - طقوس الاستنتاج والمحاكمة",
+  "description": "تطبيق متعدد الشاشات لإدارة وتوزيع بطاقات اللعبة، وتخصيص قدرات العفريت، والمحاكمة والتصويت بالنهار",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

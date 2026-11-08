@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-tajawal: 'Tajawal', sans-serif;
+    --font-amiri: 'Amiri', serif;
+  }
+
+  body {
+    font-family: var(--font-tajawal);
+  }
+
+  h1, h2, h3, .font-gothic {
+    font-family: var(--font-amiri);
+  }
+}
+
+/* Custom transitions and scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
